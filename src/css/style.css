@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.main-section-wrap-bg {
+  background-image: url("../img/bg-min.jpg");
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.header {
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.logo {
+  width: 71px;
+  margin-right: 9px;
+}
+.logo-wrap {
+  display: flex;
+  align-items: center;
+}
+.wrapper-logo-text {
+}
+.logo__name-company {
+  font-family: "MontserratBold";
+  font-size: 28px;
+}
+.logo__description {
+  font-family: "MontserratRegular";
+  font-size: 12px;
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  font-family: "MontserratRegular";
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.menu__item:after {
+  background-color: #ffffff;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  margin: 2px 0;
+  -webkit-transition: width 0.2s ease-in-out;
+  -moz--transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+.menu__item:hover:after,
+.menu__item:focus:after {
+  width: 100%;
+}
+
+.telephone-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.icon-telephone {
+}
+.telepnone-number {
+  font-family: "MontserratRegular";
+  font-size: 16px;
+  margin-top: 3px;
+}
+/* Title */
+.main-title {
+  max-width: 1132px;
+  font-family: "MontserratBold";
+  font-size: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 172px auto 0;
+  text-align: center;
+}
+.main-subtitle {
+  font-family: "MontserratRegular";
+  font-size: 20px;
+  margin: 26px auto 0;
+  text-align: center;
+}
+
+/*trigger */
+.trigger {
+  margin-top: 95px;
+}
+.trigger__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trigger__icon {
+}
+.trigger__title {
+  font-family: "MontserratMedium";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5px;
+}
+.trigger__description {
+  font-family: "MontserratRegular";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* About */
+.about {
+  padding: 50px 0;
+  position: relative;
+}
+.about::after {
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  background: rgba(45, 131, 166, 0.6);
+  opacity: 0.3;
+  -webkit-filter: blur(5px);
+  filter: blur(3px);
+  z-index: -1;
+}
+.about__title {
+  font-family: "MontserratMedium";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 97px;
+}
+.about__text-wrap {
+}
+.about__description {
+  font-family: "MontserratRegular";
+  font-size: 18px;
+  text-align: center;
+  max-width: 790px;
+  margin: 25px auto 0;
+  z-index: 2;
+}
+.about__list {
+}
+.about__item {
+  text-align: center;
+  font-family: "MontserratMedium";
+  font-size: 16px;
+  margin-top: 60px;
+}
+.about__item-text {
+}
+/* Products */
+
+.products {
+}
+.products-row {
+  max-width: 830px;
+}
+.col-wrap {
+}
+.products__title {
+  font-family: "MontserratSemiBold";
+  font-size: 30px;
+  color: #1f8da6;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 95px;
+}
+.col-row {
+}
+.col-3 {
+}
+.product-cart {
+  margin-top: 55px;
+}
+.product-cart__img {
+}
+.product-title-wrap {
+  background: #ffffff;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+.product-title {
+  font-family: "MontserratRegular";
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Gallery */
+
+.gallery {
+  max-width: 750px;
+  margin: 50px auto;
+}
+.slick-list {
+  overflow: hidden;
+}
+.gallery-list {
+}
+.gallery-list__item {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+.slick-current {
+  opacity: 1;
+}
+
+.gallery-list__item img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-nav-list {
+  max-width: 480px;
+  margin: 10px auto;
+}
+.gallery-nav-list .slick-track {
+  transform: none !important;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #165981;
+  color: white;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.contact-title {
+  font-family: "MontserratSemiBold";
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+}
+.col-wrap {
+}
+.contact {
+  max-width: 925px;
+  margin: 45px auto 60px;
+}
+.contact-item {
+}
+
+.contact-item__title {
+  font-family: "MontserratRegular";
+  font-size: 20px;
+}
+
+.contact-item p,
+a {
+  font-family: "MontserratRegular";
+  font-size: 14px;
+  margin-top: 15px;
+  color: white;
+  display: block;
+}

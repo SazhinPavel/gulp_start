@@ -1,0 +1,19 @@
+.col-wrap {
+  max-width: 2440px;
+}
+.col-row {
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.col-3 {
+  width: calc(100% / 3 - 20px);
+  margin: 0 10px;
+}
+
+.col-4 {
+  width: calc(100% / 4 - 20px);
+  margin: 0 10px;
+}
